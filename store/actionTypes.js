@@ -1,0 +1,6 @@
+// defined events
+export const GET_LOCALSTORAGE = "GET_LOCALSTORAGE";
+export const SET_LOCALSTORAGE = "SET_LOCALSTORAGE";
+export const REMOVE_LOCALSTORAGE = "REMOVE_LOCALSTORAGE";
+export const SIGNUP_ERROR = "SIGNUP_ERROR";
+export const SET_ITEM = "SET_ITEM";

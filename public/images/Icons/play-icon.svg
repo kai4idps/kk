@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#FAFAFA">
+            <g>
+                <g>
+                    <path d="M7.188 3.877l7.416 4.403c.95.564 1.262 1.791.698 2.741-.17.288-.41.528-.698.699l-7.416 4.403c-.95.564-2.177.251-2.741-.699-.184-.309-.28-.661-.28-1.02V5.596c0-1.105.895-2 2-2 .359 0 .712.097 1.02.28z" transform="translate(-121 -592) translate(60 578) translate(61 14)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

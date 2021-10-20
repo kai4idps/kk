@@ -1,0 +1,14 @@
+.kkstream-icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  font-size: 25px;
+  width: 25px;
+  height: 25px;
+
+  &.search {
+    background-image: url("../public/images/search.svg");
+    background-color: red;
+  }
+}

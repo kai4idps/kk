@@ -1,0 +1,18 @@
+version: "3.3"
+
+services:
+  kkstream:
+    ports:
+      - 3000:3000
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    env_file:
+      - ./.env.production
+    environment:
+      - NEXT_PUBLIC_MEMBER_API_ENDPOINT="https://dev.4idps.com.tw:5007"
+    volumes:
+      - ./:/home/KK-BV/Web/kkstream
+      - /home/KK-BV/Web/kkstream/node_modules
+      - /home/KK-BV/Web/kkstream/build
+      - /home/KK-BV/Web/kkstream/.next
