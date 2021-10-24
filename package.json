@@ -6,7 +6,7 @@
     "dev": "env-cmd -f .env.development  next dev -p 5001",
     "dev:dev": "env-cmd -f .env.development  next dev -p 5008",
     "dev:prod": "env-cmd -f .env.production  next dev -p 5001",
-    "build": "yarn run make-q && next build",
+    "build": "next build",
     "start": "next start",
     "start:ssh": "env-cmd -f .env.stag node server.js",
     "analyze": "ANALYZE=true next build"
